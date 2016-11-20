@@ -23,7 +23,7 @@ public class BaseTest {
     public void setUp() {
         System.setProperty("webdriver.gecko.driver", "C:\\WorkTest\\testtools\\geckodriver.exe");
         this.driver = new FirefoxDriver();
-        this.driver.get("https://google.com.ua/");
+        this.driver.get("https://www.google.com");
     }
 
     /**
